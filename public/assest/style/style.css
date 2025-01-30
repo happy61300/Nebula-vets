@@ -1,15 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .roboto {
   font-family: "Roboto Mono", serif;
 }
 @font-face {
   font-family: "Avantt";
-  src: url("/assest/avantt-font-family-1737752230-0/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
+  src: url(./../avantt-font-family-1737752230-0/AvanttTRIAL-Regular-BF6721a86b1a848.otf);
 }
 body {
   font-family: "Avantt";
