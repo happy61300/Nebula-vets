@@ -38,16 +38,19 @@ export const precareData = [
     head: "Animal Health Check",
     dis: "Our practice offers the convenience of same or next-day appointments to ensure your furry companion receives prompt diagnostic evaluation and treatment. Our dedicated team prioritizes swift action, allowing us to quickly identify the issue at hand and provide the necessary care your pet requires.",
     btnName: "LEARN MORE",
+    url: "/animal-health",
   },
   {
     head: "Vaccinations",
     dis: "Vaccinations are a key component of your pet’s health and essential to prevent life-threatening diseases. Nebula vets offer's all the core and non-core vaccines your pet might need.",
     btnName: "LEARN MORE",
+    url: "/",
   },
   {
     head: "Dentals",
     dis: "Dental disease and smelly breath is common, and regular cleanings and exams can save your pet a lot of pain and disease later in life. Our advanced state-of-the-art dental suite is equipped for dental cleanings (scale and polish), extractions and any other care your pet may need.",
     btnName: "LEARN MORE",
+    url: "/",
   },
 ];
 export const sickData = [
@@ -69,6 +72,45 @@ export const sickData = [
   {
     head: "Pharmacy",
     dis: "Our highly stocked on-site pharmacy inlcudes a variety of prescription medications and pet health products for your pet. If a particular medication is unavailable, our compounding pharmacy can have it delivered to you within 24 hours.",
+    btnName: "LEARN MORE",
+  },
+];
+export const surgeryData = [
+  {
+    head: "Surgery",
+    dis: "In our advanced state-of-the-art surgery suite, our experienced doctors can perform all routine surgeries, including spays, neuters, basic soft tissue surgery, such as mass removals, laceration repair, abscesses, and dental procedures. All estimates are provided within 24 hours of receiving a request!",
+    btnName: "LEARN MORE",
+  },
+  {
+    head: "Spays & Neuters",
+    dis: "Our team comprises highly trained doctors who excel in routine surgery and harness the full potential of our state-of-the-art technology and advanced equipment. With their expertise and proficiency, they ensure optimal surgical outcomes for your beloved pets",
+    btnName: "LEARN MORE",
+  },
+];
+export const travelData = [
+  {
+    head: "Travel Certificates",
+    dis: "From domestic or international travel, you will usually require a health certificate for your pet. We can help with the necessary paperwork to allow your pet to join you on your travels –the process is simple and easy.",
+    btnName: "LEARN MORE",
+  },
+  {
+    head: "Skin & Dermatology",
+    dis: "If your pet is experiencing uncomfortable symptoms such as itchy skin, hair loss, or rashes, it may be indicative of allergies or infections. Our team of highly trained veterinarians specializes in diagnosing and treating various skin issues that can cause distress to your beloved companion. With their expertise and comprehensive understanding of dermatological conditions, they will diligently assess your pet's symptoms and develop a tailored treatment plan to address the underlying cause of their discomfort.e",
+    btnName: "LEARN MORE",
+  },
+  {
+    head: "Microchipping",
+    dis: "A microchip, resembling a tiny grain of rice in size and shape, is delicately inserted beneath your pet's skin, specifically between the shoulder blades. This quick and completely safe procedure typically takes only a few minutes. ",
+    btnName: "LEARN MORE",
+  },
+  {
+    head: "Laser Therapy",
+    dis: "Our state-of-the-art veterinary hospital utilizes advanced laser technology to provide non-invasive and drug-free treatment options that promote healing and enhance the well-being of your beloved pets.",
+    btnName: "LEARN MORE",
+  },
+  {
+    head: "Hospice & Euthanasia",
+    dis: "The decision to say goodbye to your pet is the most difficult decision you’ll have to make. Our team at nebula vets is here to guide you through the process with compassion and can perform end-of-life services at the time of your choosing.",
     btnName: "LEARN MORE",
   },
 ];
