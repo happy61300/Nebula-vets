@@ -7,7 +7,6 @@ import Booknow from "./Booknow";
 function Navbar() {
   return (
     <>
-      {" "}
       <nav>
         <div className="bg-[#494336] fixed left-0 z-[11] right-0 top-0">
           <div className="max-w-[1440px] max-[359px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
@@ -41,7 +40,7 @@ function Navbar() {
                   alt=""
                 />
               </div>
-              <div>
+              <div className="hidden lg:block">
                 <Booknow btntitle={"BOOK NOW"} />
               </div>
             </div>
