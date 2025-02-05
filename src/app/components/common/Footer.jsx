@@ -6,25 +6,25 @@ function Footer() {
     <>
       {" "}
       <footer>
-        <div class="bg-[#494336]">
-          <div class="max-w-[1364px] px-8 max-sm:pb-[111px] py-[60px] mx-auto">
-            <div class="flex justify-between gap-10 max-[950px]:flex-wrap">
-              <div class="max-w-[309px]">
+        <div className="bg-[#494336]">
+          <div className="max-w-[1364px] px-8 max-sm:pb-[111px] py-[60px] mx-auto">
+            <div className="flex justify-between gap-10 max-[950px]:flex-wrap">
+              <div className="max-w-[309px]">
                 <label
-                  class="text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl mb-6 roboto"
-                  for="email"
+                  className="text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl mb-6 roboto"
+                  htmlFor="email"
                 >
                   Stay in touch:
                 </label>
                 <input
-                  class="text-lg text-[#D7D9DD] bg-[#494336] py-[6px] px-[14px] border-[1px] border-solid border-[#D7D9DD] mt-6 w-full"
+                  className="text-lg text-[#D7D9DD] bg-[#494336] py-[6px] px-[14px] border-[1px] border-solid border-[#D7D9DD] mt-6 w-full"
                   type="email"
                   name="email"
                   id="email"
                   placeholder="Email"
                 />
-                <div class="flex gap-5 mt-[15px] md:mt-[22px]">
-                  <Link class="hover:scale-[1.05] duration-200" href="#">
+                <div className="flex gap-5 mt-[15px] md:mt-[22px]">
+                  <Link className="hover:scale-[1.05] duration-200" href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="50"
@@ -45,13 +45,13 @@ function Footer() {
                           y2="0.622558"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#FFA280" />
-                          <stop offset="1" stop-color="#8FD9D9" />
+                          <stop stopColor="#FFA280" />
+                          <stop offset="1" stopColor="#8FD9D9" />
                         </linearGradient>
                       </defs>
                     </svg>
                   </Link>
-                  <Link class="hover:scale-[1.05] duration-200" href="#">
+                  <Link className="hover:scale-[1.05] duration-200" href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="50"
@@ -72,13 +72,13 @@ function Footer() {
                           y2="0.622558"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#FFA280" />
-                          <stop offset="1" stop-color="#8FD9D9" />
+                          <stop stopColor="#FFA280" />
+                          <stop offset="1" stopColor="#8FD9D9" />
                         </linearGradient>
                       </defs>
                     </svg>
                   </Link>
-                  <Link class="hover:scale-[1.05] duration-200" href="#">
+                  <Link className="hover:scale-[1.05] duration-200" href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="50"
@@ -99,78 +99,78 @@ function Footer() {
                           y2="0.698242"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="#FFA280" />
-                          <stop offset="1" stop-color="#8FD9D9" />
+                          <stop stopColor="#FFA280" />
+                          <stop offset="1" stopColor="#8FD9D9" />
                         </linearGradient>
                       </defs>
                     </svg>
                   </Link>
                 </div>
               </div>
-              <div class="flex max-sm:flex-wrap gap-y-[30px] max-sm:gap-x-[150px] max-md:gap-x-[100px] gap-x-[55px]">
-                <div class="flex flex-col gap-[10px] md:gap-[30px]">
-                  <p class="roboto text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
+              <div className="flex max-sm:flex-wrap gap-y-[30px] max-sm:gap-x-[150px] max-md:gap-x-[100px] gap-x-[55px]">
+                <div className="flex flex-col gap-[10px] md:gap-[30px]">
+                  <p className="roboto text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
                     Services
                   </p>
-                  <div class="flex flex-col gap-[7px]">
+                  <div className="flex flex-col gap-[7px]">
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
-                      href="/pharmacy.html"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      href="/pharmacy"
                     >
                       Preventive Care
                     </Link>
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
-                      href="/skin.html"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      href="/skin"
                     >
                       Sick Patient Care
                     </Link>
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
-                      href="/surgery.html"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      href="/surgery"
                     >
                       Surgery
                     </Link>
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
-                      href="service.html"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      href="/service"
                     >
                       Additional Services
                     </Link>
                   </div>
                 </div>
-                <div class="flex flex-col gap-[10px] md:gap-[30px]">
-                  <p class="roboto text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
+                <div className="flex flex-col gap-[10px] md:gap-[30px]">
+                  <p className="roboto text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
                     Company
                   </p>
-                  <div class="flex flex-col gap-[7px]">
+                  <div className="flex flex-col gap-[7px]">
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
-                      href="/about-us.html"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      href="/about-us"
                     >
                       About us
                     </Link>
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
-                      href="/carrer.html"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      href="/carrer"
                     >
                       Carreers
                     </Link>
                   </div>
                 </div>
-                <div class="flex flex-col gap-[10px] md:gap-[30px] xl:ml-[57px] xl:mr-[145px]">
-                  <p class="roboto text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
+                <div className="flex flex-col gap-[10px] md:gap-[30px] xl:ml-[57px] xl:mr-[145px]">
+                  <p className="roboto text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
                     Contact Us
                   </p>
-                  <div class="flex flex-col gap-[7px]">
+                  <div className="flex flex-col gap-[7px]">
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
                       href="tel: +91 999999999"
                     >
                       Phone: (212) 123-4567
                     </Link>
                     <Link
-                      class="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
+                      className="text-[#D7D9DD] text-sm sm:text-base text-underline duration-300 gred-hv"
                       href="mailto:abc@gmailcom"
                     >
                       hello@nebulavets.com

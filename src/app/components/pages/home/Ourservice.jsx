@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Booknow from "../../common/Booknow";
 
 function Ourservice() {
   return (
@@ -23,12 +24,7 @@ function Ourservice() {
               </p>
               <div className="mt-12  pb-[60px] sm:pb-20 ">
                 <div className="w-fit py-2 sm:py-3 overflow-hidden z-[1] relative">
-                  <Link
-                    href="#"
-                    className="text-base sm:text-lg font-medium text-[#494336] bg-gred roboto py-2 sm:py-3 px-6 sm:px-8 lg:px-[38px] font-medium tracking-[1.4px] rounded-[27px] duration-300"
-                  >
-                    LEARN MORE
-                  </Link>
+                  <Booknow btntitle={"LEARN MORE"} />
                 </div>
               </div>
             </div>

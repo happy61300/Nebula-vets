@@ -39,7 +39,7 @@ body {
   border-radius: 27px;
   z-index: -1;
 }
-.bg-gred::before {
+/* .bg-gred::before {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -56,7 +56,7 @@ body {
 }
 .bg-gred:hover::before {
   transform: rotate(-180deg);
-}
+} */
 
 /* @keyframes AnimationName {
   0% {

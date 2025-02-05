@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Booknow from "../../common/Booknow";
 
 function Hero() {
   return (
@@ -19,18 +20,13 @@ function Hero() {
               Reinventing Pet Medicine
             </p>
             <div className="w-fit mt-10 py-2 sm:py-3 overflow-hidden z-[1] relative">
-              <Link
-                href="#"
-                className="text-base sm:text-lg font-medium text-[#494336] bg-gred roboto py-2 sm:py-3 px-6 sm:px-8 lg:px-[38px] font-medium tracking-[1.4px] rounded-[27px] duration-300"
-              >
-                BOOK NOW
-              </Link>
+              <Booknow btntitle={"BOOK NOW"} />
             </div>
           </div>
         </div>
         <div className="sm:hidden -mt-[34px] w-full">
           <Image
-            classNameName="w-full"
+            className="w-full"
             src="/assest/img/small-hero.png"
             alt="hero-small-image"
             width={640}
