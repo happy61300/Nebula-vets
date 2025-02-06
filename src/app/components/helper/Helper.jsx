@@ -144,3 +144,83 @@ export const healthAccord = [
     question: "Education​",
   },
 ];
+export const coredogAccord = [
+  {
+    question: "Core Dog Vaccines​",
+  },
+  {
+    question: "Non-Core Dog Vaccines​",
+  },
+  {
+    question: "Core Cat Vaccines​",
+  },
+];
+export const whenToVaccinate = [
+  {
+    img: "/assest/img/small-fox.png",
+    title: "Puppies Schedule",
+    subtitle: "8 weeks: ",
+    para: "Distemper vaccine, Leptospirosis, Bordetella vaccine, Lyme vaccine & Canine Influenza Virus vaccine",
+  },
+  {
+    img: "/assest/img/kitten.png",
+    title: "Kitten Schedule",
+    subtitle: "8 weeks: ",
+    para: "FVRCP vaccine and Leukemia vaccines",
+  },
+  {
+    img: "/assest/img/small-fox.png",
+    title: "Adult Dog Schedule",
+
+    para: "Rabies: One year after the initial puppy vaccine, then every three years Distemper: Every three years Bordetella: Every yearLeptospirosis: Every year Canine influenza: Every year Lyme disease: Every year",
+  },
+  {
+    img: "/assest/img/kitten.png",
+    title: "Adult Cat Schedule",
+
+    para: "FVRCP: Every year Rabies: Every three years Feline Leukemia Virus: Every year",
+  },
+];
+export const dentalAccord = [
+  {
+    question: "Oral Health and Beyond​",
+  },
+  {
+    question: "Comprehensive Dental Examinations​",
+  },
+  {
+    question: "Professional Teeth Cleaning​",
+  },
+  {
+    question: "Periodontal Disease Management​",
+  },
+  {
+    question: "Tooth Extractions and Oral Surgery​",
+  },
+  {
+    question: "Pain Management and Anesthesia​",
+  },
+  {
+    question: "Client Education and Home Care​",
+  },
+];
+export const dentalscaleData = [
+  {
+    title: "Dentals - Scale & Polish",
+    para: "Dental health is a vital aspect of your pet's overall well-being. Just like humans, pets can experience dental problems, including plaque buildup, gum disease, and tooth decay. At Nebula Vets, we prioritize dental care and offer comprehensive dental services to ensure your pet's oral health remains in top condition.",
+  },
+  {
+    title: "When to schedule a dental consultation",
+    para: "If you notice any signs of dental problems in your pet, such as bad breath, red or swollen gums, difficulty eating, or loose teeth, it's essential to seek professional dental care. Schedule a dental consultation at Nebula Vets to have our skilled team assess your pet's dental health and recommend the most appropriate treatment options.",
+  },
+  {
+    title: "Post Dental Care",
+    para: "Most pets recover quickly after a dental. A little tiredness, and some post-anesthesia anxiety is normal. You can feed your pet the evening of their procedure; soft food for 14 days is recommended if any dental extractions were performed. If your pet had any extractions performed, we will send them home with pain relief to keep them comfortable.",
+  },
+];
+export const dentalExperinceData = [
+  {
+    title: "Experience Exceptional Dental Care at Nebula Vets:",
+    para: "At Nebula Vets, we are committed to providing exceptional dental care that goes beyond a bright smile. Our comprehensive evaluations, advanced techniques, and personalized approach set us apart. Trust us to be your partner in ensuring your pet's dental health and delivering the highest standard of veterinary dental care.",
+  },
+];

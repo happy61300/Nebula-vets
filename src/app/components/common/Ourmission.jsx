@@ -3,11 +3,11 @@ import Link from "next/link";
 import React from "react";
 import Booknow from "./Booknow";
 
-function Ourmission({ abimg, title, pera, btnName }) {
+function Ourmission({ abimg, title, pera, btnName, titleclass }) {
   return (
     <>
       <div className="bg-[#494336] relative border-b-[2px] border-solid border-[#D8DADC] max-lg:pb-[80px]">
-        <div className="absolute right-0 md:right-[37px] max-w-[500px] w-full bottom-0">
+        <div className="absolute right-0   max-w-[500px] w-full bottom-0">
           <Image
             className="w-full"
             src={abimg}
@@ -17,7 +17,7 @@ function Ourmission({ abimg, title, pera, btnName }) {
           />
         </div>
         <div className="max-w-[1160px] px-[32px] sm:px-[40px] py-[60px] sm:py-[80px] mx-auto">
-          <div className="max-w-[568px]">
+          <div className={`max-w-[568px] ${titleclass}`}>
             <p className="text-2xl sm:text-[30px] md:text-[36px] lg:text-[42px] xl:text-[48px] text-[#D7D9DD] mb-[20px] md:mb-[30px] !leading-[110%]">
               {title}
             </p>
