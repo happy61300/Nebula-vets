@@ -1,3 +1,4 @@
+import { list } from "postcss";
 import service from "./../../../../public/assest/img/pre-care.png";
 export const navLinks = [
   { title: "service", url: "/service" },
@@ -112,5 +113,34 @@ export const travelData = [
     head: "Hospice & Euthanasia",
     dis: "The decision to say goodbye to your pet is the most difficult decision you’ll have to make. Our team at nebula vets is here to guide you through the process with compassion and can perform end-of-life services at the time of your choosing.",
     btnName: "LEARN MORE",
+  },
+];
+export const healthexamData = [
+  {
+    title: "Why should I vaccinate my pet?",
+    para: "During our animal health check, we perform a thorough examination tailored to the unique needs of each patient. Our goal is to assess your pet's overall health, detect any potential issues, and offer preventive measures to maintain their vitality. Whether your furry friend is young, mature, or a senior, our veterinary professionals have the expertise to address their specific requirements.",
+    dpara:
+      "In addition to providing routine health checks, we offer a comprehensive range of services to ensure the well-being of your pets:",
+  },
+];
+// accordian 3st page
+export const healthAccord = [
+  {
+    question: "Cutting-Edge Technology​",
+  },
+  {
+    question: "Environmentally conscious​",
+  },
+  {
+    question: "Independant​",
+  },
+  {
+    question: "Expert Team​",
+  },
+  {
+    question: "Progressive Medicine​",
+  },
+  {
+    question: "Education​",
   },
 ];

@@ -1,26 +1,27 @@
-import Image from "next/image";
 import React from "react";
-import { accordData } from "../../helper/Helper";
+import { healthAccord } from "../helper/Helper";
+import Image from "next/image";
 
-function Whychoose() {
+function Faq() {
   return (
     <>
       {" "}
-      <div className="bg-[#494336]" id="location">
+      <div id="location" className="bg-white">
         <div className="max-w-[1160px] px-[32px] sm:px-[40px] py-[60px] sm:py-[80px] mx-auto">
-          <p className="text-[#D7D9DD] text-2xl sm:text-[30px] md:text-[36px] lg:text-[42px] xl:text-[48px] mb-10 max-sm:text-center md:mb-[58px]">
-            Why choose Nebula Vets?
+          <p className="text-[#494336] text-2xl sm:text-[30px] md:text-[36px] lg:text-[42px] xl:text-[48px] mb-10 max-sm:text-center md:mb-[58px] flex ">
+            Why Animal Health Checks Matter:{" "}
           </p>
-          <div className="flex max-sm:flex-wrap gap-y-0 sm:gap-x-[25px] max-[850px]:gap-x-[40px] gap-x-[70px]">
-            <div className="w-full  ">
+
+          <div className="     sm:gap-x-[25px] max-[850px]:gap-x-[40px] gap-x-[70px] ">
+            <div className="w-full   ">
               <button className="toggle-button w-full items-center   ">
-                <div className="flex gap-5 sm:gap-6 lg:gap-8  flex-wrap">
-                  {accordData.map((item, index) => (
+                <div className=" flex flex-col gap-6 sm:gap-7 lg:gap-8  flex-wrap ">
+                  {healthAccord.map((item, index) => (
                     <div
-                      className="flex border-gred-linear pb-6 sm:pb-8 w-[calc(50%-30px)] justify-between"
+                      className="flex border-gred-linear pb-6 sm:pb-8  justify-between"
                       key={index}
                     >
-                      <p className="text-base md:text-lg lg:text-xl text-[#D7D9DD] font-semibold text-start !leading-[150%] roboto">
+                      <p className="text-base md:text-lg lg:text-xl text-[text-[#494336]] font-semibold text-start !leading-[150%] roboto">
                         {item.question}
                       </p>{" "}
                       <span className="first-img">
@@ -102,4 +103,4 @@ function Whychoose() {
   );
 }
 
-export default Whychoose;
+export default Faq;
