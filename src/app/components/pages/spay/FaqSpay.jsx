@@ -1,23 +1,27 @@
 import React from "react";
-import { coredogAccord } from "../../helper/Helper";
 import Image from "next/image";
+import { spayAccord } from "../../helper/Helper";
 
-function Faqvaccine() {
+function FaqSpay() {
   return (
     <>
       {" "}
       <div id="location" className="bg-white">
         <div className="max-w-[1160px] px-[32px] sm:px-[40px] py-[60px] sm:py-[80px] mx-auto">
+          <p className="text-[#494336] text-2xl sm:text-[30px] md:text-[36px] lg:text-[42px] xl:text-[48px] mb-10 max-sm:text-center md:mb-[58px] flex ">
+            Why Choose Nebula Vets for Spay and Neuter{" "}
+          </p>
+
           <div className="     sm:gap-x-[25px] max-[850px]:gap-x-[40px] gap-x-[70px] ">
             <div className="w-full   ">
               <button className="toggle-button w-full items-center   ">
                 <div className=" flex flex-col gap-6 sm:gap-7 lg:gap-8  flex-wrap ">
-                  {coredogAccord.map((item, index) => (
+                  {spayAccord.map((item, index) => (
                     <div
                       className="flex border-gred-linear pb-6 sm:pb-8  justify-between"
                       key={index}
                     >
-                      <p className="text-base md:text-lg lg:text-xl  text-[#494336]  font-semibold text-start !leading-[150%] roboto">
+                      <p className="text-base md:text-lg lg:text-xl text-[text-[#494336]] font-semibold text-start !leading-[150%] roboto">
                         {item.question}
                       </p>{" "}
                       <span className="first-img">
@@ -99,4 +103,4 @@ function Faqvaccine() {
   );
 }
 
-export default Faqvaccine;
+export default FaqSpay;

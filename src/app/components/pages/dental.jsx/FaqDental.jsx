@@ -21,7 +21,7 @@ function FaqDental() {
                       className="flex border-gred-linear pb-6 sm:pb-8  justify-between"
                       key={index}
                     >
-                      <p className="text-base md:text-lg lg:text-xl text-[text-[#494336]] font-semibold text-start !leading-[150%] roboto">
+                      <p className="text-base md:text-lg lg:text-xl text-[#494336]  font-semibold text-start !leading-[150%] roboto">
                         {item.question}
                       </p>{" "}
                       <span className="first-img">

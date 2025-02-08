@@ -9,7 +9,7 @@ function CommonHero({ title, para, btnName, heroimg, heroimgclass }) {
       {" "}
       <div className="bg-[#494336] overflow-hidden relative bg-no-repeat bg-right-bottom pt-[102px] sm:pt-[88px] lg:pt-[98px] pb-2.5 md:pb-0">
         <div
-          className={`absolute right-0 max-w-[211px] w-full sm:max-w-[350px] lg:max-w-[400px] xl:!max-w-[521px] ${heroimgclass}`}
+          className={`absolute right-0 bottom-20 max-w-[211px] w-full sm:max-w-[350px] lg:max-w-[400px] xl:!max-w-[521px] ${heroimgclass}`}
         >
           <Image
             className="w-full"

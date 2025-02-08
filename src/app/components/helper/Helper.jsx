@@ -224,3 +224,279 @@ export const dentalExperinceData = [
     para: "At Nebula Vets, we are committed to providing exceptional dental care that goes beyond a bright smile. Our comprehensive evaluations, advanced techniques, and personalized approach set us apart. Trust us to be your partner in ensuring your pet's dental health and delivering the highest standard of veterinary dental care.",
   },
 ];
+export const openhoursData = [
+  {
+    title: "Urgent & Emergency Care during open hours",
+    para: "At Nebula Vets, we understand that emergencies can happen at any time, and your pet's health and well-being are our top priority. We have convenient operating hours to ensure that we are available when you need us.",
+  },
+  {
+    para: "Our clinic is open from 8am to 6pm on weekdays and from 9am to 5pm on Saturdays. During these hours, our team of veterinarians and staff are ready to provide care for your pets.",
+  },
+  {
+    para: "If you have an urgent situation and require immediate advice or first aid instructions while you're on your way to our practice, you can contact us at 1234567. Our knowledgeable staff will assist you and provide guidance to help you manage the situation until you arrive.",
+  },
+  {
+    title: "Outside open hours",
+    para: " The closest 24hr emergency veterinary hospital to our practice is: Their number is 123456",
+  },
+  {
+    title: "Reasons to seek Urgent or Emergency care",
+    para: " The closest 24hr emergency veterinary hospital to our practice is: Their number is 123456",
+  },
+];
+export const emergencyAccord = [
+  {
+    question: "Immediate Access to Care​",
+  },
+  {
+    question: "Skilled Veterinary Team​",
+  },
+  {
+    question: "State-of-the-Art Facilities​",
+  },
+  {
+    question: "Compassionate and Calm Approach​",
+  },
+  {
+    question: "Comprehensive Emergency Services​",
+  },
+  {
+    question: "Collaborative Care​",
+  },
+  {
+    question: "Seamless Referrals​",
+  },
+  {
+    question: "Emergency Preparedness​",
+  },
+];
+export const whyuseData = [
+  {
+    title: "Why use Telemedicine",
+    titleClass: "mb-10",
+    className: "mb-10",
+    para: "Nebula Vets' online telemedicine service is designed to provide immediate advice and guidance for various veterinary issues. Whether you're unsure about the severity of a symptom or need assistance in determining the best course of action for your pet, our experienced veterinarians can offer real-time advice through the telemedicine platform.",
+  },
+  {
+    title: "During the online consultation  ",
+    titleClass: "!mb-10",
+
+    para: "Our veterinarians will carefully assess the information you provide and ask relevant questions to better understand your pet's condition. Based on their evaluation, they can advise you on whether it's safe to monitor the situation at home or if furtherin-person evaluation and treatment are necessary.",
+  },
+  {
+    para: "This immediate access to professional veterinary advice can be particularly valuable in situations where you're unsure if a symptom or behavior is concerning enough to warrant a visit to the clinic. It can save you time and unnecessary stress by providing clarity and peace  of mind.",
+  },
+  {
+    para: "However, it's important to note that there are limitations to telemedicine, and certain cases may still require an in-person visit for a thorough examination or diagnostic tests. Our veterinarians will use their expertise to determine the most appropriate course of action based on the information provided during the telemedicine consultation.",
+  },
+];
+export const telecardData = [
+  {
+    title: "1.",
+    subtitle: "Book a telemedicine consult",
+    para: "Click the hat with vet button below to join a que for a telemedicine online visit.",
+  },
+  {
+    title: "2.",
+    subtitle: "Join with the link",
+    para: "A custom link will be sent to your email",
+  },
+  {
+    title: "3.",
+    subtitle: "Video chat",
+    para: "In a real-time online visit, share with the vet your pet’s current issues.",
+  },
+  {
+    title: "4.",
+    subtitle: "Treatment",
+    para: "Our veterinarian will evaluate your pet and discuss next steps, which may include medication.",
+  },
+];
+export const testData = [
+  {
+    title: "Available Tests",
+    para: "At Nebula Vets, we take pride in offering an in-house laboratory equipped with state-of-the-art diagnostic equipment to fulfill your pet's diagnostic needs. Our comprehensive laboratory services include:",
+  },
+];
+export const daiAccord = [
+  {
+    question: "Blood Panel​",
+  },
+  {
+    question: "Urinalysis​",
+  },
+  {
+    question: "Fecal Testing​",
+  },
+  {
+    question: "Cytology​",
+  },
+  {
+    question: "Histopathology​",
+  },
+  {
+    question: "Tick & Heart-worm Testing​",
+  },
+  {
+    question: "Allergy Testing​",
+  },
+];
+export const digiAccord = [
+  {
+    question: "Digital Radiography​",
+  },
+  {
+    question: "Ultrasound​",
+  },
+  {
+    question: "Echocardiograms​",
+  },
+];
+export const daicardData = [
+  {
+    title: "SNAP Lepto Test",
+    para: "Add description",
+  },
+  {
+    title: "SNAP cPL Test",
+    para: "Assess canine pancreatic health",
+  },
+  {
+    title: "SNAP Giardia Test",
+    para: "Add description",
+  },
+  {
+    title: "SNAP Parvo Test",
+    para: "Add description",
+  },
+];
+export const daicardsecData = [
+  {
+    title: "SNAP FIV/FeLV Combo Test",
+    para: "Add description",
+  },
+  {
+    title: "SNAP fPL Test",
+    para: "Add description",
+  },
+  {
+    title: "SNAP Giardia Test",
+    para: "Add description",
+  },
+  {
+    title: "SNAP Feline proBNP Test ",
+    para: "Add description",
+  },
+];
+export const PharmacyAccord = [
+  {
+    question: "Convenience​",
+  },
+  {
+    question: "Quality Assurance​",
+  },
+  {
+    question: "Prescription Medications​",
+  },
+  {
+    question: "Prescription Diets​",
+  },
+  {
+    question: "Wellness and Preventive Products​",
+  },
+  {
+    question: "Expert Guidance​",
+  },
+  {
+    question: "Prescription Refills​",
+  },
+];
+export const surgeryAccord = [
+  {
+    question: "Expert Surgical Team​",
+  },
+  {
+    question: "Comprehensive Surgical Services​",
+  },
+  {
+    question: "Cutting-Edge Facilities and Technology​",
+  },
+  {
+    question: "Personalized Care​",
+  },
+  {
+    question: "Optimal Safety and Comfort​",
+  },
+  {
+    question: "ECompassionate Post-Surgical Care​",
+  },
+];
+export const spayAccord = [
+  {
+    question: "Experienced Surgical Team​",
+  },
+  {
+    question: "Health Benefits  ​",
+  },
+  {
+    question: "Surgical Expertise​",
+  },
+  {
+    question: "Personalized Care​",
+  },
+  {
+    question: "Compassionate Post-Surgical Care​",
+  },
+  {
+    question: "Overpopulation Control​",
+  },
+];
+export const skinAccord = [
+  {
+    question: "Specialized Expertise​",
+  },
+  {
+    question: "Comprehensive Skin Examinations  ​",
+  },
+  {
+    question: "Advanced Diagnostic Techniques​",
+  },
+  {
+    question: "Personalized Treatment Plans​",
+  },
+  {
+    question: "Allergy Management​",
+  },
+  {
+    question: "Parasite Control​",
+  },
+  {
+    question: "Client Education and Support​",
+  },
+  {
+    question: "Follow-up Care​",
+  },
+];
+export const laserAccord = [
+  {
+    question: "Pain Relief​",
+  },
+  {
+    question: "Accelerated Healing  ​",
+  },
+  {
+    question: "Reducedued Inflammation​",
+  },
+  {
+    question: "Non-Invasive and Drug-Free​",
+  },
+  {
+    question: "Enhanced Mobility​",
+  },
+  {
+    question: "Enhanced Mobility​",
+  },
+  {
+    question: "Complementary to Other Treatments​",
+  },
+];
