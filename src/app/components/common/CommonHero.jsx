@@ -3,7 +3,7 @@ import Booknow from "./Booknow";
 import Image from "next/image";
 import Hero from "../pages/service/Hero";
 
-function CommonHero({ title, para, btnName, heroimg, heroimgclass }) {
+function CommonHero({ title, para, btnName, heroimg, heroimgclass, subtitle }) {
   return (
     <>
       {" "}
@@ -29,6 +29,9 @@ function CommonHero({ title, para, btnName, heroimg, heroimgclass }) {
             <h1 className="text-[32px] sm:text-[40px] mt-40 md:mt-0 md:text-[50px] lg:text-[60px] xl:text-[70px] leading-[normal]">
               {title}
             </h1>
+            <p className="roboto text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[28px]">
+              {subtitle}
+            </p>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-[157%] sm:leading-[130%] mt-[30px] sm:mt-5 mb-[51px] sm:mb-12">
               {para}
             </p>

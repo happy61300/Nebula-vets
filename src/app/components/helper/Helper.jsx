@@ -2,10 +2,10 @@ import { list } from "postcss";
 import service from "./../../../../public/assest/img/pre-care.png";
 export const navLinks = [
   { title: "service", url: "/service" },
-  { title: "aboutus", url: "/aboutus" },
+  { title: "aboutus", url: "/about-us" },
   { title: "location", url: "/location" },
   { title: "career", url: "/career" },
-  { title: "patient portal", url: "/patient_portal" },
+  { title: "patient portal", url: "/" },
 ];
 // accordian 1st page
 export const accordData = [
@@ -45,13 +45,13 @@ export const precareData = [
     head: "Vaccinations",
     dis: "Vaccinations are a key component of your pet’s health and essential to prevent life-threatening diseases. Nebula vets offer's all the core and non-core vaccines your pet might need.",
     btnName: "LEARN MORE",
-    url: "/",
+    url: "/vaccination",
   },
   {
     head: "Dentals",
     dis: "Dental disease and smelly breath is common, and regular cleanings and exams can save your pet a lot of pain and disease later in life. Our advanced state-of-the-art dental suite is equipped for dental cleanings (scale and polish), extractions and any other care your pet may need.",
     btnName: "LEARN MORE",
-    url: "/",
+    url: "/dental-care",
   },
 ];
 export const sickData = [
@@ -59,6 +59,7 @@ export const sickData = [
     head: "Urgent & Emergency Care",
     dis: "Whether your pet is sick or injured, we’re here to help get them the help they need. This includes telemedicine veterinary consults if you are unsure, and overnight care for 24-hour treatment.",
     btnName: "LEARN MORE",
+    url: "/emergency",
   },
   {
     head: "Telemedicine consults",
@@ -69,11 +70,13 @@ export const sickData = [
     head: "Diagnostics",
     dis: "Nebula vets has invested in the latest technology, equipped for all the diagnostic tests your pet needs to stay healthy, and to treat those that get sick. We’re able to run tests quickly in-house in situations where a rapid diagnosis is required and offer artificialintelligence alongside veterinary experts.",
     btnName: "LEARN MORE",
+    url: "/diagnostics",
   },
   {
     head: "Pharmacy",
     dis: "Our highly stocked on-site pharmacy inlcudes a variety of prescription medications and pet health products for your pet. If a particular medication is unavailable, our compounding pharmacy can have it delivered to you within 24 hours.",
     btnName: "LEARN MORE",
+    url: "/pharmacy",
   },
 ];
 export const surgeryData = [
@@ -81,11 +84,13 @@ export const surgeryData = [
     head: "Surgery",
     dis: "In our advanced state-of-the-art surgery suite, our experienced doctors can perform all routine surgeries, including spays, neuters, basic soft tissue surgery, such as mass removals, laceration repair, abscesses, and dental procedures. All estimates are provided within 24 hours of receiving a request!",
     btnName: "LEARN MORE",
+    url: "surgery",
   },
   {
     head: "Spays & Neuters",
     dis: "Our team comprises highly trained doctors who excel in routine surgery and harness the full potential of our state-of-the-art technology and advanced equipment. With their expertise and proficiency, they ensure optimal surgical outcomes for your beloved pets",
     btnName: "LEARN MORE",
+    url: "/spay",
   },
 ];
 export const travelData = [
@@ -93,26 +98,31 @@ export const travelData = [
     head: "Travel Certificates",
     dis: "From domestic or international travel, you will usually require a health certificate for your pet. We can help with the necessary paperwork to allow your pet to join you on your travels –the process is simple and easy.",
     btnName: "LEARN MORE",
+    url: "travel",
   },
   {
     head: "Skin & Dermatology",
     dis: "If your pet is experiencing uncomfortable symptoms such as itchy skin, hair loss, or rashes, it may be indicative of allergies or infections. Our team of highly trained veterinarians specializes in diagnosing and treating various skin issues that can cause distress to your beloved companion. With their expertise and comprehensive understanding of dermatological conditions, they will diligently assess your pet's symptoms and develop a tailored treatment plan to address the underlying cause of their discomfort.e",
     btnName: "LEARN MORE",
+    url: "skin",
   },
   {
     head: "Microchipping",
     dis: "A microchip, resembling a tiny grain of rice in size and shape, is delicately inserted beneath your pet's skin, specifically between the shoulder blades. This quick and completely safe procedure typically takes only a few minutes. ",
     btnName: "LEARN MORE",
+    url: "microchipping",
   },
   {
     head: "Laser Therapy",
     dis: "Our state-of-the-art veterinary hospital utilizes advanced laser technology to provide non-invasive and drug-free treatment options that promote healing and enhance the well-being of your beloved pets.",
     btnName: "LEARN MORE",
+    url: "/laser",
   },
   {
     head: "Hospice & Euthanasia",
     dis: "The decision to say goodbye to your pet is the most difficult decision you’ll have to make. Our team at nebula vets is here to guide you through the process with compassion and can perform end-of-life services at the time of your choosing.",
     btnName: "LEARN MORE",
+    url: "/hospice",
   },
 ];
 export const healthexamData = [
@@ -499,4 +509,61 @@ export const laserAccord = [
   {
     question: "Complementary to Other Treatments​",
   },
+];
+export const hospiceData = [
+  {
+    title: "Euthanasia Service",
+    para: "Saying goodbye to a beloved pet is a deeply emotional and challenging experience. At Nebula Vets, we understand the profound bond between you and your pet, and we are here to support you during this difficult time. Our compassionate team providesend-of-life care and guiding you through the process with empathy and understanding. Here's how we can assist you:",
+  },
+  {
+    title: "Compassionate Support",
+    para: "We recognize that the decision to say goodbye to your pet is a personal and heartfelt one. Our team is here to listen to your concerns, answer any questions you may have, and provide emotional support throughout the entire process. We understand the grief and sadness that comes with this decision, and we aim to create a compassionate and comforting environment for both you and your pet.",
+  },
+  {
+    title: "Open Communication",
+    para: "We believe in open and honest communication when it comes to end-of-life care. Our veterinarians will take the time to discuss your pet's condition, prognosis, and quality of life to help you make an informed decision. We will guide you through the available options and ensure that you have all the information you need to make the best decision for your pet and your family.",
+  },
+  {
+    title: "Tailored End-of-Life Services",
+    para: "We offer a range of end-of-life services to accommodate your wishes and provide a peaceful transition for your pet. This includes euthanasia services, which can be performed at our veterinary hospital. Our experienced veterinarians prioritize your pet's comfort, dignity, and pain-free experience during this time.",
+  },
+  {
+    title: "Supportive Environment",
+    para: "We strive to create a calm and supportive environment during the end-of-life process. Our facility is designed to offer a peaceful setting where you and your pet can be together during these final moments. We provide a private space where you can say your goodbyes and spend quality time with your pet, offering comfort and reassurance throughout the process.",
+  },
+  {
+    title: "Aftercare Options",
+    para: "We understand that the loss of a pet is a deeply personal experience, and we offer various aftercare options to honor your pet's memory. This may include individual cremation with the return of ashes, communal cremation, or burial services. We can discuss these options with you and provide guidance on how to memorialize your beloved pet in a meaningful way.",
+  },
+];
+export const carrerAccord = [
+  {
+    question: "Commitment to Excellence​",
+  },
+  {
+    question: "Collaborative and Supportive Environment​",
+  },
+  {
+    question: "Advanced Facilities and Technology​",
+  },
+  {
+    question: " Focus on  Work Life Balance​",
+  },
+  {
+    question: " Continuous Professional Development ​",
+  },
+  {
+    question: " A Culture of Compassion​",
+  },
+  {
+    question: "Client Education and Home Care​",
+  },
+];
+export const meetourData = [
+  { title: "Dr. Daniel Hodnett-Lewis Chief Veterinary Officer" },
+  { title: "Dr. Jane Doe Veterinarian" },
+  { title: "Dr. Jane Doe Veterinarian" },
+  { title: "Dr. Jane Doe Veterinarian" },
+  { title: "Dr. Jane Doe Veterinarian" },
+  { title: "Dr. Jane Doe Veterinarian" },
 ];

@@ -63,6 +63,7 @@ function Tabsection() {
                   title={item.head}
                   dis={item.dis}
                   btnName={item.btnName}
+                  path={item.url}
                 />
               ))}
             </div>
@@ -90,6 +91,7 @@ function Tabsection() {
                   title={item.head}
                   dis={item.dis}
                   btnName={item.btnName}
+                  path={item.url}
                 />
               ))}
             </div>
@@ -117,6 +119,7 @@ function Tabsection() {
                   title={item.head}
                   dis={item.dis}
                   btnName={item.btnName}
+                  path={item.url}
                 />
               ))}
             </div>
